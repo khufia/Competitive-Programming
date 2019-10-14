@@ -2,11 +2,11 @@
 int main()
 {
     int n,i,j,k;
-    scanf("%d",&n);
-    int arr[n];
+    scanf("%d",&n);//takes the values of n from the user 
+    int arr[n];//creates an integer array of size 'n'
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]);//taking user input 
     }
     for(j=0;j<n;j++)
     {
@@ -25,7 +25,7 @@ int main()
     }
     for(int l=0;l<n;l++)
     {
-        printf("%d\n",arr[l]);
+        printf("%d\n",arr[l]);//prints final output 
     }
     
 }
