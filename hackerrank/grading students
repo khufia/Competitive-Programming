@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,j,k;
-    scanf("%d",&n);//takes the values of n from the user 
+    scanf("%d",&n);
     int arr[n];//creates an integer array of size 'n'
     for(i=0;i<n;i++)
     {
