@@ -10,7 +10,7 @@ int main()
     }
     for(j=0;j<n;j++)
     {
-        for(k=40;k<=100;k+=5)
+        for(k=40;k<=100;k+=5)  //loop to iterate through the marks of the students under the given criteria
         {
             if(k>arr[j])
             {
