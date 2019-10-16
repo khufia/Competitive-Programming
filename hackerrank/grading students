@@ -1,4 +1,11 @@
 #include<stdio.h>
+
+void print(int a[] , int n){
+    for(int i=0 ; i<n ; i++){
+    printf("%d\n" , a[i]);
+    }
+}
+
 int main()
 {
     int n,i,j,k;
@@ -23,9 +30,10 @@ int main()
 
         }
     }
-    for(int l=0;l<n;l++)
-    {
-        printf("%d\n",arr[l]);//prints final output 
-    }
+    
+    print(arr,n);  //prints the output array.
+    
+    
+    return 0;
     
 }
